@@ -71,12 +71,12 @@ def points(x, y):
 
 
 over = pygame.font.Font('freesansbold.ttf', 64)
-gameX = 180
+gameX = 80
 gameY = 250
 
 
 def game_over_text(x, y):
-    game = over.render("|GAME OVER|", True, (255, 255, 255))
+    game = over.render("I LOVE U PRANALI", True, (255, 255, 255))
     screen.blit(game, (x, y))
 
 
